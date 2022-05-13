@@ -1,0 +1,72 @@
+$primary-color: #333;
+$header-font_size:50px;
+$content-font_size:16px;
+.why_academy{
+    width: 570px;
+    padding: 25px;
+}
+.why_academy_header{
+    font-size: $header-font_size ;
+    font-weight: normal;
+}
+.why_academy_bold_header{
+    font-size: $header-font_size ;
+    font-weight: bold;
+}
+.why_academy_img{
+    margin: 40px  0;
+}
+.why_academy_content{
+    font-size: $content-font_size;
+}
+.why_academy_cardbox{
+    margin: 70px 0;
+} 
+.card_item{
+    max-width: 570px;
+    padding: 25px;
+}
+.card_item_img{
+    height: 208px;
+    width: 208px;
+    margin-right: 40px;
+}
+.card_item_content_header{
+    padding-bottom: 10px;
+    font-size: 21px;
+    font-weight: bold;
+}
+.card_item_content_text{
+    font-size: 16px;
+}
+.card_item_content_infoLink{
+    padding-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+@media only screen and (max-width: 992px) {
+    .why_academy{
+        width: unset;
+        max-width: 570px;
+        padding: 25px;
+    }
+    .card_item{
+        max-width: none;
+        padding: 25px;
+    }
+    .card_item_img{
+        height: 180px;
+        width: 180px;
+        margin-right: 40px;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    .card_item{
+        max-width: none;
+        padding: 25px;
+    }
+    .card_item_img{
+        display: none;
+    }
+  }
